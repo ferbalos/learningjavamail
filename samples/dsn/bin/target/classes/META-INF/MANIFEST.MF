@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Built-By: fernando
+Build-Jdk: 15.0.1
+Created-By: Apache Maven Bundle Plugin
+Extension-Name: com.sun.mail.dsn
+Implementation-Title: com.sun.mail.dsn
+Implementation-Vendor: Oracle
+Implementation-Vendor-Id: com.sun
+Implementation-Version: 1.6.2
+Probe-Provider-XML-File-Names: 
+Specification-Title: com.sun.mail.dsn
+Specification-Vendor: Oracle
+Specification-Version: 1.6
+Bnd-LastModified: 1614872615762
+Bundle-Description: JavaMail API dsn support
+Bundle-DocURL: http://www.oracle.com
+Bundle-License: https://javaee.github.io/javamail/LICENSE
+Bundle-ManifestVersion: 2
+Bundle-Name: JavaMail API dsn support
+Bundle-SymbolicName: com.sun.mail.dsn
+Bundle-Vendor: Oracle
+Bundle-Version: 1.6.2
+DynamicImport-Package: *
+Export-Package: com.sun.mail.dsn;version="${mail.osgiversion}"
+Import-Package: javax.security.sasl;resolution:=optional,sun.security.ut
+ il;resolution:=optional
+Originally-Created-By: Maven Integration for Eclipse
+Tool: Bnd-3.5.0.201709291849
+
